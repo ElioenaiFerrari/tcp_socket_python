@@ -12,8 +12,8 @@ def received_send(c):
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-HOST = '192.168.15.9'
-PORT = 9999
+HOST = [your_host]
+PORT = [your_port]
 
 server.bind((HOST, PORT))
 server.listen(1)
